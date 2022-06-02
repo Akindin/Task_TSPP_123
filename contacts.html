@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand fixed-top ">
+    <a class="navbar-brand" href="index.html">Главная страница</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-4">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            О нас
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="portfolio.html">
+            Портфолио
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="team.html">
+            Специалисты
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="blog.html">
+            Отзывы
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contacts.html">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="contact-form">
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Хотите оставить отзыв?</h1> 
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Имя" name="">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Фамилия" name="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="E-mail" name="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control form-control-lg" placeholder="Ваш отзыв"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Отправить" name="">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<!--   <script type="text/javascript">
+    $(document).ready(function(){
+      $('.header').height($(window).height());
+    })
+  </script> -->
+</body>
+</html>
